@@ -1,0 +1,36 @@
+name: rive_animation_course
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  rive: 0.10.2
+  flutter_svg: 2.0.1
+  cupertino_icons: 1.0.5
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/avaters/
+    - assets/Backgrounds/
+    - assets/icons/
+    - assets/RiveAssets/
+  fonts:
+    - family: Intel
+      fonts:
+        - asset: assets/Fonts/Inter-Regular.ttf
+        - asset: assets/Fonts/Inter-SemiBold.ttf
+          weight: 600
+    - family: Poppins
+      fonts:
+        - asset: assets/Fonts/Poppins-Bold.ttf
+          weight: 700
+  uses-material-design: true
